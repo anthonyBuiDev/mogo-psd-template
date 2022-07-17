@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "A basic front-end workflow using Gulp",
 	"main": "index.js",
+	"private": true,
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "gulp build",
@@ -41,5 +42,8 @@
 		"array-union": "^2.1.0",
 		"del": "^3.0.0",
 		"static-server": "^3.0.0"
+	},
+	"optionalDependencies": {
+		"fsevents": "^2.3.2"
 	}
 }
