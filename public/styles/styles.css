@@ -559,6 +559,9 @@ button {
   .wedo-item.isActive > .wedo-item-content {
     padding: 2rem;
     height: auto; }
+  .wedo-item.isActive > .wedo-item-header i.wedo-item-arrow {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
   .wedo-item-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -596,7 +599,9 @@ button {
   .wedo-item-arrow {
     margin-left: auto;
     color: #e5e5e5;
-    font-size: 3rem; }
+    font-size: 3rem;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s; }
   .wedo-item-content {
     border: 1px solid #e5e5e5;
     border-top: 0;

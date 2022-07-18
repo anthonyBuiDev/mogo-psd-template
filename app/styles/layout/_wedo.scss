@@ -13,6 +13,9 @@
     padding: 2rem;
     height: auto;
   }
+  &-item.isActive > .wedo-item-header i.wedo-item-arrow {
+    transform: rotate(180deg);
+  }
   &-item-header {
     @include flexbox(center);
     padding: 1.5rem;
@@ -32,6 +35,7 @@
     margin-left: auto;
     color: $gray-color;
     font-size: 3rem;
+    transition: all 0.25s;
   }
   &-item-content {
     border: 1px solid $gray-color;
