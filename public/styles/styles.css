@@ -557,7 +557,8 @@ button {
   .wedo-item:not(:last-child) {
     margin-bottom: 1rem; }
   .wedo-item.isActive > .wedo-item-content {
-    display: block; }
+    padding: 2rem;
+    height: auto; }
   .wedo-item-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -597,7 +598,6 @@ button {
     color: #e5e5e5;
     font-size: 3rem; }
   .wedo-item-content {
-    padding: 2rem;
     border: 1px solid #e5e5e5;
     border-top: 0;
     font-size: 1.5rem;
@@ -606,7 +606,10 @@ button {
     line-height: 1.6;
     color: #999999;
     font-weight: 300;
-    display: none; }
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s; }
   .wedo-item-text {
     height: 14rem;
     overflow-y: auto;

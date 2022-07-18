@@ -42,8 +42,5 @@
 		"array-union": "^2.1.0",
 		"del": "^3.0.0",
 		"static-server": "^3.0.0"
-	},
-	"optionalDependencies": {
-		"fsevents": "^2.3.2"
 	}
 }

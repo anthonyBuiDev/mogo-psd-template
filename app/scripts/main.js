@@ -28,3 +28,11 @@ $(document).ready(function () {
     ],
   });
 });
+
+const accordion = document.querySelectorAll(".wedo-item");
+
+accordion.forEach((element) => {
+  element.addEventListener("click", () => {
+    element.classList.toggle("isActive");
+  });
+});
